@@ -1,0 +1,48 @@
+.ant-select-item-option-content {
+  background-color: none;
+
+  /* background: #ffff; */
+  /* border: 1px solid #dfe3e8; */
+  border-radius: 8px;
+  margin-bottom: 16px;
+  min-height: 40px;
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5a21ec;
+  border: none;
+  margin: auto 0;
+  /* background-color: #ffff; */
+}
+
+.ant-select-item {
+  /* background-color: brown !important; */
+  margin-bottom: 10px;
+  background-color: #ffff;
+}
+.ant-select-selection-overflow {
+  /* background-color: red; */
+  min-height: 60px;
+}
+
+/* .dont-show .ant-select-selection-item {
+  display: none !important;
+} */
+
+@media screen and (max-width: 900px) {
+  .ant-select-selection-overflow {
+    /* background-color: red; */
+    min-height: 60px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .ant-select-selection-overflow {
+    /* background-color: red; */
+    min-height: 50px;
+  }
+}

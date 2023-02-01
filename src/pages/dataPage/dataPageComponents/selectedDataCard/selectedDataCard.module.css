@@ -1,0 +1,40 @@
+.input {
+  display: none;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  min-height: 80px;
+  padding: 19px 22px 20px 16px;
+
+  background: #ffffff;
+  border: 1px solid #5a21ec;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.label:hover {
+  border: 1px solid #00ce7c;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.label p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+input[type='radio']:checked + label {
+  background-color: #00ce7c;
+  color: white;
+  border: 1px solid #00ce7c;
+}
+
+input[type='radio']:checked + label .svg g path {
+  fill: white;
+}
